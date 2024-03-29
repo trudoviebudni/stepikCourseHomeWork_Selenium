@@ -4,7 +4,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-misc_dir = os.path.abspath(os.path.dirname(__file__)) + "\\misc"
+misc_dir = os.path.abspath(os.path.dirname(__file__)) + "\\resourses"
 file_path = os.path.join(misc_dir, "file.txt")
 
 link = 'http://suninjuly.github.io/file_input.html'
