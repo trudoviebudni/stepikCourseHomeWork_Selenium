@@ -7,8 +7,7 @@ link = "http://selenium1py.pythonanywhere.com/"
 
 
 class TestMainPage1:
-    driver: WebDriver
-
+    driver: WebDriver # помогаем autocomplete`у аннотацией типа
     @classmethod
     def setup_class(cls):
         print("\nstart browser for test suite..")
