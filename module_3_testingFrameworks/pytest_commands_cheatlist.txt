@@ -17,6 +17,12 @@ python -m pytest -q test_sample.py # вызов pytest через python
 
 py.test --markers # показать доступные маркеры
 
+pytest -sv --tb=line --reruns 1 --browser_name=chrome test_name.py
+# --reruns 1 - количество повторений упавших тестов работает с плагином pip install pytest-rerunfailures
+# --tb=line - сократить лог с результатами тестов
+# -s - для вывода дополнительных инсутркций по типу print
+# -v - выводить параметры, результаты, названия тестов и тд
+
 # Для того чтобы создать маркер многократного использования.
 /*
 # содержимое pytest.ini
